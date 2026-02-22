@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restraint | Pure Jain Cuisine</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <div id="visual-texture"></div>
+
+    <div id="site-wrapper">
+      <header id="main-navigation">
+        <div class="page-width nav-inner">
+          <a href="#" class="brand-logo">TheJainOutlet</a>
+
+          <nav class="link-cluster">
+            <a href="#about" class="nav-item">About</a>
+            <a href="#menu" class="nav-item">Menu</a>
+            <a href="#experience" class="nav-item">Experience</a>
+            <a href="#reserve" class="nav-item highlight">Reserve</a>
+          </nav>
+
+          <button class="mobile-toggle" id="menu-trigger">
+            <i data-lucide="menu"></i>
+          </button>
+
+          <div class="mobile-drawer" id="mobile-nav">
+            <a href="#about" class="nav-item">About</a>
+            <a href="#menu" class="nav-item">Menu</a>
+            <a href="#experience" class="nav-item">Experience</a>
+            <a href="#reserve" class="nav-item highlight">Reserve Table</a>
+          </div>
+        </div>
+      </header>
+
+      <main id="main-stage">
+        <section id="intro-hero">
+          <div class="hero-video">
+            <video src="header-vid.mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="hero-dimmer"></div>
+
+          <div class="hero-messaging reveal-on-scroll">
+            <p class="hero-origin">Estd. 2023 &bull; Jaipur</p>
+            <h1 class="hero-heading">
+              Pure Jain Cuisine. <br /><span class="serif-italic"
+                >Thoughtfully Served</span
+              >
+            </h1>
+            <p class="body-text hero-description">
+              A refined vegetarian dining experience rooted in tradition,
+              clarity, and balance.
+            </p>
+
+            <div class="hero-btn-group">
+              <a href="#menu" class="action-trigger trigger-solid">View Menu</a>
+              <a href="#reserve" class="action-trigger trigger-ghost"
+                >Reserve Table</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="stage-section">
+          <div class="page-width">
+            <div class="story-layout">
+              <div class="portrait-frame reveal-on-scroll">
+                <img src="jainfood.jpg" />
+              </div>
+              <div class="story-text reveal-on-scroll">
+                <h2>
+                  Cooking with <span class="serif-italic">Intention</span>.
+                </h2>
+                <div class="accent-line"></div>
+                <p class="body-text">
+                  Crafted with devotion to Jain values, clean ingredients,
+                  gentle spices, and absolute purity.
+                </p>
+                <p class="body-text">
+                  We believe that true flavor comes from fresh ingredients,
+                  balanced spices, and a mindful preparation process that
+                  respects the source of our nourishment.
+                </p>
+                <a href="#" class="action-trigger trigger-brass story-cta"
+                  >Our Philosophy</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="stage-section">
+          <div class="page-width stage-section-inner">
+            <div class="pillar-grid">
+              <div class="pillar-card reveal-on-scroll">
+                <div class="icon-nest"><i data-lucide="leaf"></i></div>
+                <h3>Jain-Certified</h3>
+                <p class="body-text">Kitchen & Ingredients</p>
+              </div>
+              <div class="pillar-card reveal-on-scroll">
+                <div class="icon-nest"><i data-lucide="sun"></i></div>
+                <h3>Fresh Daily</h3>
+                <p class="body-text">Prepared Each Morning</p>
+              </div>
+              <div class="pillar-card reveal-on-scroll">
+                <div class="icon-nest"><i data-lucide="coffee"></i></div>
+                <h3>Serene Ambience</h3>
+                <p class="body-text">Calm, Elegant Space</p>
+              </div>
+              <div class="pillar-card reveal-on-scroll">
+                <div class="icon-nest">
+                  <i data-lucide="heart-handshake"></i>
+                </div>
+                <h3>Respectful Service</h3>
+                <p class="body-text">Hospitable & Attentive</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery" class="stage-section">
+          <div class="page-width">
+            <div class="gallery-head text-center reveal-on-scroll">
+              <span class="label-gold">Culinary Highlights</span>
+              <h2
+                class="main-header"
+                style="font-size: 2.5rem; margin-top: 0.5rem"
+              >
+                Chef's Recommendations
+              </h2>
+            </div>
+
+            <div class="plate-grid">
+              <div class="plate-item reveal-on-scroll">
+                <div class="plate-image">
+                  <img src="assets/Jain Kadhi.png" alt="Kadhi" />
+                  <div class="plate-info">
+                    <p class="serif-italic plate-overlay-text">
+                      Creamy Gujarati Kadhi tempered with mild spices and curry
+                      leaves
+                    </p>
+                  </div>
+                </div>
+                <h3 class="plate-title">Jain Kadhi</h3>
+              </div>
+
+              <div class="plate-item reveal-on-scroll">
+                <div class="plate-image">
+                  <img src="assets/Jain Pulao.png" alt="Pulao" />
+                  <div class="plate-info">
+                    <p class="serif-italic plate-overlay-text">
+                      Vegetable Pulao with aromatic whole spices and
+                      garden-fresh vegetables.
+                    </p>
+                  </div>
+                </div>
+                <h3 class="plate-title">Pulao</h3>
+              </div>
+
+              <div class="plate-item reveal-on-scroll">
+                <div class="plate-image">
+                  <img src="assets/jain Thali.png" alt="Jain Thali" />
+                  <div class="plate-info">
+                    <p class="serif-italic plate-overlay-text">
+                      Traditional Jain Thali featuring a wholesome selection of
+                      sattvik dishes.
+                    </p>
+                  </div>
+                </div>
+                <h3 class="plate-title">Jain Thali</h3>
+              </div>
+
+              <div class="plate-item reveal-on-scroll">
+                <div class="plate-image">
+                  <img
+                    src="assets/jain  Vegetable Sabzi.png"
+                    alt="jain  Vegetable Sabzi"
+                  />
+                  <div class="plate-info">
+                    <p class="serif-italic plate-overlay-text">
+                      Seasonal Jain Vegetable Sabji cooked without onion and
+                      garlic.
+                    </p>
+                  </div>
+                </div>
+                <h3 class="plate-title">jain Vegetable Sabzi</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="menu" class="stage-section">
+          <div class="page-width">
+            <div class="menu-brief">
+              <div class="menu-cat reveal-on-scroll">
+                <h4>Starters</h4>
+                <p class="serif-italic menu-subtitle">Light. Balanced. Pure.</p>
+                <ul class="menu-items">
+                  <li>Kela Galouti Kebab</li>
+                  <li>Stuffed Tandoori Aloo</li>
+                  <li>Crispy Corn & Spinach</li>
+                </ul>
+              </div>
+              <div class="menu-cat reveal-on-scroll">
+                <h4>Main Course</h4>
+                <p class="serif-italic menu-subtitle">
+                  Traditional recipes, refined.
+                </p>
+                <ul class="menu-items">
+                  <li>Paneer Makhani (Jain)</li>
+                  <li>Jain Chole Masala</li>
+                  <li>Vegetable Kofta Curry</li>
+                </ul>
+              </div>
+              <div class="menu-cat reveal-on-scroll">
+                <h4>Desserts</h4>
+                <p class="serif-italic menu-subtitle">Classic restraint.</p>
+                <ul class="menu-items">
+                  <li>Sitaphal Basundi</li>
+                  <li>Gulab Jamun</li>
+                  <li>Kesar Pista Kulfi</li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center menu-cta-container">
+              <a href="#" class="action-trigger trigger-brass"
+                >Full Digital Menu</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section id="reserve" class="stage-section">
+          <div class="page-width reveal-on-scroll">
+            <h2 class="reserve-heading">A Space for Mindful Dining</h2>
+            <p class="body-text reserve-sub">
+              We invite you to pause, breathe, and savor.
+            </p>
+            <a href="#" class="action-trigger trigger-brass"
+              >Reserve Your Table</a
+            >
+            <p class="reserve-note">
+              WALK-INS WELCOME &bull; RESERVATIONS RECOMMENDED
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer id="site-footer">
+        <div class="page-width">
+          <div class="footer-main">
+            <div class="footer-brand">TheJainOutlet</div>
+            <div class="footer-address">
+              <h5>Visit</h5>
+              <p>C-Scheme, Statue Circle</p>
+              <p>Jaipur, Rajasthan</p>
+            </div>
+            <div class="footer-address">
+              <h5>Contact</h5>
+              <p>+91 141 234 5634</p>
+              <p>meal@thejainoutlet.com</p>
+            </div>
+            <div class="footer-address">
+              <h5>Hours</h5>
+              <p>Lunch: 12:00 - 15:30</p>
+              <p>Dinner: 19:00 - 23:00</p>
+            </div>
+          </div>
+
+          <div class="footer-base">
+            <p>&copy; 2024 TheJainOutlet. Handcrafted with Care.</p>
+            <div class="social-row">
+              <a href="#" class="nav-item footer-social-link">Instagram</a>
+              <a href="#" class="nav-item footer-social-link">Google Maps</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
