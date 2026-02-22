@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&family=Quantico:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Noto Sans", sans-serif;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.page1 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("assets/BG1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 5%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header h1 {
+  font-family: "Quantico", sans-serif;
+  color: white;
+  line-height: 1;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  border-left: 4px solid red;
+  padding-left: 15px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 10vh;
+}
+
+.hero-text h1 {
+  font-family: "Quantico", sans-serif;
+  font-size: clamp(3rem, 8vw, 6rem);
+  color: white;
+  line-height: 0.9;
+}
+
+.hero-text h1 span {
+  color: red;
+  display: block;
+}
+
+.button-div button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 40px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Quantico", sans-serif;
+}
+
+.button-div button:hover {
+  transform: scale(1.05);
+  background-color: darkred;
+}
+
+.page2 {
+  display: flex;
+  background-color: #f9f9f9;
+}
+
+.page2 .box,
+.page2 .box1 {
+  width: 50%;
+  padding: 10% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page2 h2 {
+  font-family: "Quantico", sans-serif;
+  font-size: 4rem;
+  color: red;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.page2 img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.page2 pre {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.showroom-section {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
+
+.showroom-content {
+  width: 50%;
+  padding-right: 5%;
+}
+
+.showroom-content h2 {
+  font-family: "Quantico", sans-serif;
+  font-size: 3.5rem;
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.showroom-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.showroom-image {
+  width: 50%;
+}
+
+.showroom-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 20px 20px 0px red;
+}
+
+.page3 {
+  display: flex;
+  background: white;
+  padding: 5% 0;
+}
+
+.page3 .content {
+  width: 75%;
+  padding: 0 8%;
+}
+
+.page3 h1 {
+  font-family: "Quantico", sans-serif;
+  font-size: 3.5rem;
+  color: red;
+  margin-bottom: 3rem;
+}
+
+.white-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.offer-item {
+  margin-bottom: 30px;
+}
+
+.offer-item h2 {
+  color: red;
+  font-size: 3rem;
+  font-family: "Quantico", sans-serif;
+}
+
+.offer-item h3 {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: #1a1a1a;
+}
+
+.offer-item p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.side-img {
+  width: 25%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.side-img:hover {
+  filter: grayscale(0%);
+}
+
+.heritage-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 5%;
+}
+
+.heritage-section h2 {
+  font-family: "Quantico", sans-serif;
+  font-size: 4.5rem;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.heritage-section p {
+  max-width: 800px;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.page4 {
+  background-color: #1a1a1a;
+  padding: 8% 5%;
+  text-align: center;
+}
+
+.page4 h1 {
+  font-family: "Quantico", sans-serif;
+  font-size: 4rem;
+  color: red;
+  margin-bottom: 4rem;
+}
+
+.stories-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.story-card {
+  background: #262626;
+  padding: 40px;
+  width: 300px;
+  border-bottom: 5px solid red;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.story-card:hover {
+  transform: translateY(-10px);
+}
+
+.story-card h2 {
+  color: red;
+  font-family: "Quantico", sans-serif;
+  margin-bottom: 15px;
+}
+
+.story-card p {
+  color: #ccc;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.footer {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("assets/BG2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 8% 10%;
+  color: white;
+}
+
+.footer .heading h1 {
+  font-family: "Quantico", sans-serif;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.footer-item {
+  margin-bottom: 30px;
+}
+
+.footer-item h1 {
+  color: red;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: "Quantico", sans-serif;
+  margin-bottom: 10px;
+}
+
+.footer-item p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .page2,
+  .white-box,
+  .footer-grid,
+  .showroom-section {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+  .page2 .box,
+  .page2 .box1,
+  .page3 .content,
+  .side-img,
+  .showroom-content,
+  .showroom-image {
+    width: 100%;
+  }
+  .hero-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+  .side-img {
+    display: none;
+  }
+  .showroom-content {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+  .heritage-section h2 {
+    font-size: 2.5rem;
+  }
+}
